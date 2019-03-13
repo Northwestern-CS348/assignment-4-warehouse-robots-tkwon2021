@@ -1,0 +1,18 @@
+TESTS WITH ERRORS 
+-------------------------------
+TESTS FAILED  
+test02 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 22, in test02
+    self.assertTrue(plan.ok)
+AssertionError: False is not true
+
+test09 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 74, in test09
+    self.assertFalse(plan.ok)
+AssertionError: True is not false
+
+-------------------------------
+TESTS SKIPPED 
+-------------------------------
